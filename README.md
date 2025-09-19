@@ -39,10 +39,8 @@ services/
 Install dependencies:
 
 ```bash
-pip install -r requirements.txt  # or manually install fastapi sqlalchemy pydantic celery uvicorn
+pip install -r requirements.txt
 ```
-
-> The project ships without a `requirements.txt` file to keep the repository lightweight; install the packages listed above before running the application or tests.
 
 ### Environment variables
 
